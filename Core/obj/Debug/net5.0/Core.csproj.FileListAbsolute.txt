@@ -1,0 +1,12 @@
+C:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\Core.deps.json
+C:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\Core.dll
+C:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\ref\Core.dll
+C:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\Core.pdb
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.dll
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\ref\Core.dll
+C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.pdb

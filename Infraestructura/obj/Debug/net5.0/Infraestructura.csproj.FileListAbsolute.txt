@@ -1,0 +1,15 @@
+C:\LabProgramacion\GlobalTours\Infraestructura\bin\Debug\net5.0\Infraestructura.deps.json
+C:\LabProgramacion\GlobalTours\Infraestructura\bin\Debug\net5.0\Infraestructura.dll
+C:\LabProgramacion\GlobalTours\Infraestructura\bin\Debug\net5.0\ref\Infraestructura.dll
+C:\LabProgramacion\GlobalTours\Infraestructura\bin\Debug\net5.0\Infraestructura.pdb
+C:\LabProgramacion\GlobalTours\Infraestructura\bin\Debug\net5.0\Core.dll
+C:\LabProgramacion\GlobalTours\Infraestructura\bin\Debug\net5.0\Core.pdb
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.AssemblyReference.cache
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.AssemblyInfoInputs.cache
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.AssemblyInfo.cs
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.CoreCompileInputs.cache
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.csproj.CopyComplete
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.dll
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\ref\Infraestructura.dll
+C:\LabProgramacion\GlobalTours\Infraestructura\obj\Debug\net5.0\Infraestructura.pdb
