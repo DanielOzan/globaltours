@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Infraestructura.Datos.Repository;
+using API.Services;
 using Infraestructura.Datos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,8 +32,23 @@ namespace API
         {
             
             var connectionString=Configuration.GetConnectionString("DefaultConnection");
+            var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseMySql(connectionString,ServerVersion.AutoDetect(connectionString))
+                .Options;
+
             services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(connectionString,ServerVersion.AutoDetect(connectionString)) );
             services.AddControllers();
+             Task.Run(() => {
+               BaseDeDatosSeed.SeedAsync(new ApplicationDbContext(contextOptions),new LoggerFactory()).Wait();     
+        });
+            
+                 
+            //----------------------------------------
+            services.AddScoped<ILugarRepository,LugarRepository>(); //AddScoped , dura el tiempo del request 
+            //AddSingleton tiene un ciclo de vida mas largo, se reutiliza.
+            //AddTransient = ciclo de vida corto se crea cada vez que se invoca  la dependencia.
+      
+                         
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
@@ -47,6 +64,8 @@ namespace API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
             }
+            
+
 
             app.UseHttpsRedirection();
 
@@ -58,6 +77,7 @@ namespace API
             {
                 endpoints.MapControllers();
             });
+            
         }
     }
 }
