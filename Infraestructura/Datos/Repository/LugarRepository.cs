@@ -23,13 +23,13 @@ namespace Infraestructura.Datos.Repository
         public async Task<List<Lugar>> GetAllLugaresAsync()
         {          
          
-            return await  _db.Lugar.Include(p=>p.Pais)
+            return await  _db.Lugar.Include(p=>p.Pais) //Eager loading
             .Include(c=>c.Categoria)
             .ToListAsync();
         }
         public async Task<Lugar> GetLugarAsync(int id)
         {
-            return await  _db.Lugar.Include(p=>p.Pais)
+            return await  _db.Lugar.Include(p=>p.Pais) //Eager loading
                                 .Include(c=>c.Categoria)
                                  .FirstOrDefaultAsync(l => l.Id == id);
         }
