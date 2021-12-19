@@ -10,3 +10,15 @@ C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInpu
 C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.dll
 C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\ref\Core.dll
 C:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.pdb
+D:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\Core.deps.json
+D:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\Core.dll
+D:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\ref\Core.dll
+D:\LabProgramacion\GlobalTours\Core\bin\Debug\net5.0\Core.pdb
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.dll
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\ref\Core.dll
+D:\LabProgramacion\GlobalTours\Core\obj\Debug\net5.0\Core.pdb

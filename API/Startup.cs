@@ -15,6 +15,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Core.Interfaces;
+using API.Helpers;
 
 namespace API
 {
@@ -45,8 +47,10 @@ namespace API
                  
             //----------------------------------------
             services.AddScoped<ILugarRepository,LugarRepository>(); //AddScoped , dura el tiempo del request 
-            //AddSingleton tiene un ciclo de vida mas largo, se reutiliza.
-            //AddTransient = ciclo de vida corto se crea cada vez que se invoca  la dependencia.
+            services.AddScoped(typeof(IRepository<>), (typeof(Respository<>)));
+            services.AddAutoMapper(typeof(MappingProfiles));
+           
+           //AddTransient = ciclo de vida corto se crea cada vez que se invoca  la dependencia.
       
                          
             services.AddSwaggerGen(c =>
@@ -65,7 +69,7 @@ namespace API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
             }
             
-
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 

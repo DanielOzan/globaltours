@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
+      "projectUniqueName": "d:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
+      "projectPath": "d:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Dmo\\.nuget\\packages\\",
-      "outputPath": "C:\\LabProgramacion\\GlobalTours\\Core\\obj\\",
+      "outputPath": "d:\\LabProgramacion\\GlobalTours\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dmo\\AppData\\Roaming\\NuGet\\NuGet.Config",

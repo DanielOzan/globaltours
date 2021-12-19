@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj": {}
+    "D:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj": {
+    "D:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
+        "projectPath": "D:\\LabProgramacion\\GlobalTours\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Dmo\\.nuget\\packages\\",
-        "outputPath": "C:\\LabProgramacion\\GlobalTours\\Core\\obj\\",
+        "outputPath": "D:\\LabProgramacion\\GlobalTours\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
